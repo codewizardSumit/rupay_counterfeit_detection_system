@@ -8,7 +8,7 @@ import time
 # 1. PAGE CONFIGURATION & CUSTOM CSS (UI/UX)
 # ==========================================
 # Layout 'wide' karne se screen ka poora space use hota hai
-st.set_page_config(page_title="VaultGuard AI | Currency Scanner", page_icon="🏦", layout="wide")
+st.set_page_config(page_title="Rupay Counterfeit Detection System", page_icon="🏦", layout="wide")
 
 # Custom CSS for a cleaner, professional look (hiding default Streamlit marks)
 hide_streamlit_style = """
