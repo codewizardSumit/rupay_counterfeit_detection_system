@@ -71,7 +71,8 @@ if uploaded_file is not None and model_loaded:
         st.markdown("### 📷 Scanned Document")
         image = Image.open(uploaded_file)
         # Image ko display karein frame ke andar
-        st.image(image, caption='Uploaded for verification', use_column_width=True)
+        st.image(image, caption='Uploaded for verification', use_container_width=True)
+
 
     with col2:
         st.markdown("### 🔍 AI Analysis Report")
