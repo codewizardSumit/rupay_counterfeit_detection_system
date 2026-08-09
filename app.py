@@ -54,7 +54,7 @@ with st.sidebar:
 # ==========================================
 # 4. MAIN DASHBOARD AREA
 # ==========================================
-st.title("🏦 Indian Currency Authentication Portal")
+st.title("🏦 Indian Counterfeit Currency Note Detection System")
 st.markdown("Upload a clear image of an Indian currency note to instantly verify its authenticity using Deep Learning.")
 
 # File Uploader
