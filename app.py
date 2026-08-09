@@ -26,7 +26,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 @st.cache_resource
 def load_ai_model():
     # Aapka trained model load ho raha hai
-    return tf.keras.models.load_model('best_currency_model.keras')
+    return tf.keras.models.load_model('rupay_counterfeit_detector.keras')
 
 try:
     model = load_ai_model()
