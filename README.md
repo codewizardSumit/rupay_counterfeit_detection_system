@@ -27,6 +27,11 @@ The AI brain is built using **TensorFlow/Keras** with the following pipeline:
 - **Web Framework:** Streamlit
 - **Data Manipulation:** NumPy, Pillow (PIL)
 - **Deployment:** Render (Cloud PaaS)
+📊 Dataset Credit
+
+The model is trained on the [Indian Currency Real vs Fake Notes Dataset](https://www.kaggle.com/datasets/preetrank/indian-currency-real-vs-fake-notes-dataset)  provided by preetrank on Kaggle.
+
+
 
 ## 📁 Project Structure
 ```text
