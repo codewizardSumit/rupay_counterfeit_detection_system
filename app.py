@@ -54,7 +54,7 @@ with st.sidebar:
 # ==========================================
 # 4. MAIN DASHBOARD AREA
 # ==========================================
-st.title("🏦 Indian Counterfeit Currency Note Detection System")
+st.title("🏦 Counterfeit Rupay Note Detection System")
 st.markdown("Upload a clear image of an Indian currency note to instantly verify its authenticity using Deep Learning.")
 
 # File Uploader
@@ -112,7 +112,7 @@ if uploaded_file is not None and model_loaded:
         # ----------------------------------
         # Result Display (Metrics & Alerts)
         # ----------------------------------
-        if prediction > 0.5:
+        if prediction > 0.9:
             confidence = prediction * 100
             st.success("✅ **STATUS: AUTHENTIC (REAL)**")
             st.metric(label="AI Confidence Score", value=f"{confidence:.2f}%", delta="Verified")
