@@ -133,5 +133,5 @@ if uploaded_file is not None and model_loaded:
 Inference Time: {inference_time:.4f} seconds
 Input Tensor Shape: {img_batch.shape}
 Raw Sigmoid Output: {prediction:.6f}
-Decision Threshold: 0.500000
+Decision Threshold: 0.900000
             """)
